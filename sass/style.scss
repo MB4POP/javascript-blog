@@ -112,6 +112,10 @@ body {
   font-style: italic;
 }
 
+.post-author a.active {
+  font-weight: bold;
+}
+
 .post-tags {
   display: flex;
   p {
