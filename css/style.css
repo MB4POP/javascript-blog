@@ -111,4 +111,35 @@ body {
 .post-tags p {
   margin: 0 10px 0 0;
 }
+
+.tag-size-1 {
+  color: red;
+  font-size: 100%;
+}
+
+.tag-size-2 {
+  color: green;
+  font-size: 120%;
+}
+
+.tag-size-3 {
+  color: black;
+  font-size: 140%;
+}
+
+.tag-size-4 {
+  color: blue;
+  font-size: 190%;
+}
+
+.tag-size-1, .tag-size-2, .tag-size-3, .tag-size-4 {
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+}
+
+a.tag-size-1, a.tag-size-2, a.tag-size-3, a.tag-size-4 {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
 /*# sourceMappingURL=style.css.map */
