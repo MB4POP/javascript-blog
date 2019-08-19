@@ -118,7 +118,7 @@ body {
 }
 
 .tag-size-2 {
-  color: green;
+  color: #913434;
   font-size: 120%;
 }
 
@@ -128,17 +128,22 @@ body {
 }
 
 .tag-size-4 {
-  color: blue;
-  font-size: 190%;
+  color: #00ff0d;
+  font-size: 170%;
 }
 
-.tag-size-1, .tag-size-2, .tag-size-3, .tag-size-4 {
+.tag-size-5 {
+  color: #6f00ff;
+  font-size: 200%;
+}
+
+.tag-size-1, .tag-size-2, .tag-size-3, .tag-size-4, .tag-size-5 {
   text-align: center;
   display: inline-block;
   font-weight: bold;
 }
 
-a.tag-size-1, a.tag-size-2, a.tag-size-3, a.tag-size-4 {
+a.tag-size-1, a.tag-size-2, a.tag-size-3, a.tag-size-4, a.tag-size-5 {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
 }
